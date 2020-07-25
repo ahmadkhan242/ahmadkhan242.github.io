@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Learning | Mohammad Ahmad</title>
-    <link>/tag/deep-learning/</link>
-      <atom:link href="/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ahmadkhan242.github.io/tag/deep-learning/</link>
+      <atom:link href="https://ahmadkhan242.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Profile_pic.jpg</url>
+      <url>https://ahmadkhan242.github.io/img/Profile_pic.jpg</url>
       <title>Deep Learning</title>
-      <link>/tag/deep-learning/</link>
+      <link>https://ahmadkhan242.github.io/tag/deep-learning/</link>
     </image>
     
     <item>
       <title>Code-ml</title>
-      <link>/project/code-ml/</link>
+      <link>https://ahmadkhan242.github.io/project/code-ml/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/code-ml/</guid>
+      <guid>https://ahmadkhan242.github.io/project/code-ml/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Face Recognition Using Tensorflow.js</title>
-      <link>/project/face-recognition-using-tensorflow.js/face-recognition-using-tensorflow.js/</link>
+      <link>https://ahmadkhan242.github.io/project/face-recognition-using-tensorflow.js/face-recognition-using-tensorflow.js/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/face-recognition-using-tensorflow.js/face-recognition-using-tensorflow.js/</guid>
+      <guid>https://ahmadkhan242.github.io/project/face-recognition-using-tensorflow.js/face-recognition-using-tensorflow.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reddit Flair Detection</title>
-      <link>/project/reddit-flair-detection/reddit-flair-detection/</link>
+      <link>https://ahmadkhan242.github.io/project/reddit-flair-detection/reddit-flair-detection/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/reddit-flair-detection/reddit-flair-detection/</guid>
+      <guid>https://ahmadkhan242.github.io/project/reddit-flair-detection/reddit-flair-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Toxic Text Analysis Using Tensorflow.js</title>
-      <link>/project/toxic-text-analysis-using-tensorflow.js/toxic-text-analysis-using-tensorflow.js/</link>
+      <link>https://ahmadkhan242.github.io/project/toxic-text-analysis-using-tensorflow.js/toxic-text-analysis-using-tensorflow.js/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/toxic-text-analysis-using-tensorflow.js/toxic-text-analysis-using-tensorflow.js/</guid>
+      <guid>https://ahmadkhan242.github.io/project/toxic-text-analysis-using-tensorflow.js/toxic-text-analysis-using-tensorflow.js/</guid>
       <description></description>
     </item>
     

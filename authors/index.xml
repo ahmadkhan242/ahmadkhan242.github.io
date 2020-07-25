@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Mohammad Ahmad</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ahmadkhan242.github.io/authors/</link>
+      <atom:link href="https://ahmadkhan242.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/img/Profile_pic.jpg</url>
+      <url>https://ahmadkhan242.github.io/img/Profile_pic.jpg</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>https://ahmadkhan242.github.io/authors/</link>
     </image>
     
   </channel>
