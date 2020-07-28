@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile development | Mohammad Ahmad</title>
+    <link>https://ahmadkhan242.github.io/tag/mobile-development/</link>
+      <atom:link href="https://ahmadkhan242.github.io/tag/mobile-development/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mobile development</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ahmadkhan242.github.io/img/Profile_pic.jpg</url>
+      <title>Mobile development</title>
+      <link>https://ahmadkhan242.github.io/tag/mobile-development/</link>
+    </image>
+    
+    <item>
+      <title>Country Detail App</title>
+      <link>https://ahmadkhan242.github.io/project/country-detail-app/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://ahmadkhan242.github.io/project/country-detail-app/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -205,6 +205,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162024881-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-162024881-2', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -264,6 +302,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "hsl(339, 90%, 68%)",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "hsl(339, 90%, 68%)"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
 
 
   
@@ -635,7 +703,7 @@
 
       
       
-      <img class="avatar avatar-circle" src="/author/mohammad-ahmad/avatar_hu2c69c15571d3ef14d8abc306f2c82d4b_93454_270x270_fill_q90_lanczos_center.jpg" alt="Mohammad Ahmad">
+      <img class="avatar avatar-circle" src="/author/mohammad-ahmad/avatar_hu158371c3f5dee62fc07e14ff42a14223_127443_270x270_fill_q90_lanczos_center.jpg" alt="Mohammad Ahmad">
       
 
       <div class="portrait-title">
@@ -935,6 +1003,48 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
           <span class="badge badge-pill border ">&nbsp;</span>
         </div>
         <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Intern</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.wowcheme.in" target="_blank" rel="noopener">WowChemE M&amp;C Pvt. Ltd</a></h4>
+            <div class="text-muted exp-meta">
+              Sep 2019 –
+              
+                Jun 2020
+              
+              
+                <span class="middot-divider"></span>
+                <span>New Delhi</span>
+              
+            </div>
+            <div class="card-text"><ul>
+<li>Explored applications of machine learning in understanding catalysis for energy and chemical production.</li>
+<li>Successfully reviewed and summarized a few research papers.</li>
+<li>Co-authored a Book chapter entitled <code>Catalytic production of high-value chemicals from high volume non-food biomass: Implications from Machine learning in acid catalysis</code> with <a href="https://scholar.google.co.in/citations?user=JZPBJloAAAAJ&amp;hl=en">Md. Imteyaz Alam</a> which is going to be published soon by <code>Springer Nature</code>.</li>
+</ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
           <div class="col ">&nbsp;</div>
           <div class="col">&nbsp;</div>
         </div>
@@ -944,7 +1054,7 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
         <div class="card">
           <div class="card-body">
             <h4 class="card-title exp-title text-muted mt-0 mb-1">Software Developer Intern</h4>
-            <h4 class="card-title exp-company text-muted my-0"><a href="Rydeu.com" target="_blank" rel="noopener">Rydeu.com</a></h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://Rydeu.com" target="_blank" rel="noopener">Rydeu.com</a></h4>
             <div class="text-muted exp-meta">
               Jul 2019 –
               
@@ -1020,7 +1130,7 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
 
-    <h1>Projects</h1>
+    <h1>Projects(WIP)</h1>
     
 
   </div>
@@ -1038,10 +1148,8 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
       
       
       
-        
-      
 
-      <span class="d-none default-project-filter">*</span>
+      <span class="d-none default-project-filter">.js-id-Deep-Learning</span>
 
       
       
@@ -1053,14 +1161,7 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
                 
                 
                 
-                  
-                
-                <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
-              
-                
-                
-                
-                <a href="#" data-filter=".js-id-Deep-Learning" class="btn btn-primary btn-lg">Deep Learning</a>
+                <a href="#" data-filter=".js-id-Deep-Learning" class="btn btn-primary btn-lg active">Deep Learning</a>
               
                 
                 
@@ -1173,7 +1274,7 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
   
   <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://code-ml.com/" target="_blank" rel="noopener">
     <i class="fas fa-external-link-alt mr-1"></i>
-    View
+    Demo
   </a>
 
 
@@ -1230,7 +1331,7 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/project/face-recognition-using-tensorflow.js/face-recognition-using-tensorflow.js/" >Face Recognition Using Tensorflow.js</a>
+      <a href="/project/face-recognition-using-tensorflow.js/" >Face Recognition Using Tensorflow.js</a>
     </h3>
 
     
@@ -1287,9 +1388,25 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
   
     
   
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/ahmadkhan242/face-recognition-using-tf.js" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Repository
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
   <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://face-recognition-using-tfjs.herokuapp.com/" target="_blank" rel="noopener">
     <i class="fas fa-external-link-alt mr-1"></i>
-    View
+    Demo
   </a>
 
 
@@ -1299,6 +1416,11 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
   </div>
   <div class="ml-3">
     
+    
+    
+    <a href="/project/face-recognition-using-tensorflow.js/" >
+      <img src="/project/face-recognition-using-tensorflow.js/featured_hua21faf16d5c571cdc7ad422952f3ed5e_1169131_150x0_resize_lanczos_2.png" alt="Face Recognition Using Tensorflow.js">
+    </a>
     
   </div>
 </div>
@@ -1341,7 +1463,7 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/project/reddit-flair-detection/reddit-flair-detection/" >Reddit Flair Detection</a>
+      <a href="/project/reddit-flair-detection/" >Reddit Flair Detection</a>
     </h3>
 
     
@@ -1398,9 +1520,25 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://code-ml.com/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/ahmadkhan242/Reddit-flair-detection" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Repository
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://asdasrfd.herokuapp.com/" target="_blank" rel="noopener">
     <i class="fas fa-external-link-alt mr-1"></i>
-    View
+    Demo
   </a>
 
 
@@ -1410,6 +1548,11 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
   </div>
   <div class="ml-3">
     
+    
+    
+    <a href="/project/reddit-flair-detection/" >
+      <img src="/project/reddit-flair-detection/featured_hufa4c9f4815bdd13b24a12ec459bafba9_41773_150x0_resize_lanczos_2.png" alt="Reddit Flair Detection">
+    </a>
     
   </div>
 </div>
@@ -1452,7 +1595,7 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0">
-      <a href="/project/toxic-text-analysis-using-tensorflow.js/toxic-text-analysis-using-tensorflow.js/" >Toxic Text Analysis Using Tensorflow.js</a>
+      <a href="/project/toxic-text-analysis-using-tensorflow.js/" >Toxic Text Analysis Using Tensorflow.js</a>
     </h3>
 
     
@@ -1509,9 +1652,25 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://code-ml.com/" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/ahmadkhan242/Toxic-Text-analysis-TF.js" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Repository
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://toxic-text-analysis.herokuapp.com/" target="_blank" rel="noopener">
     <i class="fas fa-external-link-alt mr-1"></i>
-    View
+    Demo
   </a>
 
 
@@ -1521,6 +1680,127 @@ have good knowledge of Machine Learning (And AI) and am interested in Research i
   </div>
   <div class="ml-3">
     
+    
+    
+    <a href="/project/toxic-text-analysis-using-tensorflow.js/" >
+      <img src="/project/toxic-text-analysis-using-tensorflow.js/featured_hu4623794893445e634a9db4c0df914758_31917_150x0_resize_lanczos_2.png" alt="Toxic Text Analysis Using Tensorflow.js">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+        
+
+      
+
+        
+        
+        
+
+        
+          
+
+
+<div class="col-12 isotope-item js-id-Mobile-development">
+  
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/project/country-detail-app/" >Country Detail App</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Android Application which show details of all country. Used retrofit library to get json data from given endpoint. Used this <a href="https://restcountries.eu/rest/v2/">API</a> for country data.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/ahmadkhan242/Country_Detail_App" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Repository
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/project/country-detail-app/" >
+      <img src="/project/country-detail-app/featured_hu334369f23185352faecd78ac424b786b_250261_150x0_resize_q90_lanczos.jpg" alt="Country Detail App">
+    </a>
     
   </div>
 </div>
@@ -1811,7 +2091,7 @@ etc.</li>
       <div class="card experience course">
         <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Programming for Everybody (Getting Started with Python)</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
 
-            Mar 2010
+            Mar 2019
             
           </div>
 
