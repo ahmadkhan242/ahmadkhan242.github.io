@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Mohammad Ahmad</title>
-    <link>https://ahmadkhan242.github.io/publication/</link>
-      <atom:link href="https://ahmadkhan242.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
+    <title>Mohammed Sajjad Jafri | Mohammad Ahmad</title>
+    <link>https://ahmadkhan242.github.io/author/mohammed-sajjad-jafri/</link>
+      <atom:link href="https://ahmadkhan242.github.io/author/mohammed-sajjad-jafri/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mohammed Sajjad Jafri</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 02 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ahmadkhan242.github.io/img/Profile_pic.jpg</url>
-      <title>Publications</title>
-      <link>https://ahmadkhan242.github.io/publication/</link>
+      <title>Mohammed Sajjad Jafri</title>
+      <link>https://ahmadkhan242.github.io/author/mohammed-sajjad-jafri/</link>
     </image>
     
     <item>
